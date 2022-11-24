@@ -17,7 +17,7 @@ pgoutput-cli --host=<host> --port=<port> \
 Or, via Docker, typically connecting to a Docker network with your Postgres database:
 
 ```
-docker run -it --rm --network <some network> gunnarmorling/pgoutput-cli:1.0 \
+docker run -it --rm --network <some network> gunnarmorling/pgoutput-cli \
   pgoutput-cli --host=<host> --port=<port> \
   --database=<database> --user=<user> --password=<password> \
   --publication<publication> --slot=<slot>
@@ -28,6 +28,10 @@ docker run -it --rm --network <some network> gunnarmorling/pgoutput-cli:1.0 \
 ```
 docker build -t gunnarmorling/pgoutput-cli:<tag> .
 ```
+
+## Source
+
+The source of this project is located in the [pgoutput-cli](https://github.com/gunnarmorling/pgoutput-cli) repository on GitHub.
 
 ## License
 
