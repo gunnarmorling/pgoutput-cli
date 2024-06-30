@@ -1,0 +1,7 @@
+# pypgoutput @ git+https://github.com/gunnarmorling/pypgoutput@master
+pypgoutput @ git+https://github.com/gunnarmorling/pypgoutput@63a814022349e51f27f269d1135458dc0b417898
+annotated-types==0.7.0
+psycopg2==2.9.9
+pydantic==2.7.4
+pydantic_core==2.18.4
+typing_extensions==4.12.2

@@ -56,7 +56,7 @@ def main(argv):
                     password=password,
                 )
     for message in cdc_reader:
-        print(message.json(indent=2))
+        print(message.model_dump_json(indent=2))
 
     cdc_reader.stop()
 
