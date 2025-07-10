@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ```
 pgoutput-cli --host=<host> --port=<port> \
   --database=<database> --user=<user> --password=<password> \
-  --publication<publication> --slot=<slot>
+  --publication=<publication> --slot=<slot>
 ```
 
 Or, via Docker, typically connecting to a Docker network with your Postgres database:
@@ -46,7 +46,7 @@ Or, via Docker, typically connecting to a Docker network with your Postgres data
 docker run -it --rm --network <some network> gunnarmorling/pgoutput-cli \
   pgoutput-cli --host=<host> --port=<port> \
   --database=<database> --user=<user> --password=<password> \
-  --publication<publication> --slot=<slot>
+  --publication=<publication> --slot=<slot>
 ```
 
 ## Build
